@@ -1,0 +1,41 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Điện thoại",
+      "createdAt": 1616346753759,
+      "updatedAt": 1616346753759
+    },
+    {
+      "name": "Tivi",
+      "createdAt": 1646375532409,
+      "updatedAt": 1646375532409,
+      "id": 2
+    },
+    {
+      "name": "Tủ lạnh",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Iphone 11",
+      "categoryId": 1,
+      "salePrice": 12000000,
+      "createdAt": 1616346753759,
+      "updatedAt": 1616346753759
+    },
+    {
+      "id": 2,
+      "name": "Iphone 12",
+      "categoryId": 1,
+      "salePrice": 20000000,
+      "createdAt": 1616346753759,
+      "updatedAt": 1616346753759
+    }
+  ],
+  "profile": {
+    "name": "Bay"
+  }
+}

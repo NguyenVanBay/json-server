@@ -1,0 +1,24 @@
+@baseURL = http://localhost:3000/api
+
+#Categories
+# @name getAllCategories
+GET {{baseURL}}/categories
+###
+
+# @name addNewCategory
+POST {{baseURL}}/categories
+Content-Type: application/json
+
+{
+  "name": "Tivi"
+}
+
+###
+
+# @name editCategory
+PUT {{baseURL}}/categories/3
+Content-Type: application/json
+
+{
+  "name": "Tủ lạnh"
+}
